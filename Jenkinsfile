@@ -1,17 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        // Install the Maven version configured in Jenkins
-        maven 'Maven 3.6.3'
-    }
-
-    environment {
-        // Define any environment variables here
-        JAVA_HOME = "${tool 'JDK 11'}"
-        PATH = "${env.JAVA_HOME}/bin:${env.PATH}"
-    }
-
     stages {
         stage('Checkout') {
             steps {
