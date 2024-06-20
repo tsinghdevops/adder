@@ -1,13 +1,13 @@
 pipeline {
     agent any
 
-    stages {
+/*    stages {
         stage('Checkout') {
             steps {
                 // Checkout the code from version control
                 checkout scm
             }
-        }
+        }*/
 
         stage('Build') {
             steps {
