@@ -33,7 +33,7 @@ pipeline {
             }
         }*/
 
-        stage('Deploy') {
+        /*stage('Deploy') {
             steps {
                 // Deploy the application
                 // This step will vary based on your deployment strategy
@@ -42,7 +42,7 @@ pipeline {
                 }
             }
         }
-    }
+    }*/
 
     post {
         always {
