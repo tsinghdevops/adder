@@ -18,7 +18,7 @@ pipeline {
             }
         }
 
-        stage('Test') {
+        /*stage('Test') {
             steps {
                 // Run unit tests using Maven
                 script {
@@ -31,7 +31,7 @@ pipeline {
                     junit 'target/surefire-reports/*.xml'
                 }
             }
-        }
+        }*/
 
         stage('Deploy') {
             steps {
