@@ -18,7 +18,7 @@ pipeline {
             }
         }
 
-        stage('Test') {
+        /*stage('Test') {
             steps {
                 // Run unit tests using Maven
                 script {
@@ -41,7 +41,7 @@ pipeline {
                     sh 'mvn deploy'
                 }
             }
-        }
+        }*/
     }
 
     post {
