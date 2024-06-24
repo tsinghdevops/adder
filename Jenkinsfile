@@ -41,8 +41,8 @@ pipeline {
                     sh 'mvn deploy'
                 }
             }
-        }
-    }*/
+        }*/
+    }
 
     post {
         always {
